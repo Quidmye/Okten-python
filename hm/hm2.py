@@ -24,7 +24,7 @@ class Prince:
                 return cinderella
 
 
-cinderellas = [
+cinderellas_list = [
     Cinderella('Даздрасмыгда', 13, 30),
     Cinderella('Даздраперма', 15, 29),
     Cinderella('Аврора', 12, 32),
@@ -38,7 +38,7 @@ cinderellas = [
 ]
 
 prince = Prince('Лориерик', 20, 27);
-prince.find_cinderella_by_foot_size(cinderellas=cinderellas)
+prince.find_cinderella_by_foot_size(cinderellas=cinderellas_list)
 print(Cinderella.count)
 
 
