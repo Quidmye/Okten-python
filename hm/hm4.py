@@ -15,7 +15,6 @@
 #     '5) Поиск по названию покупки'
 #     '9) Выход'
 # - можете придумать свои пункты
-import pickle
 import json
 
 class Notebook:
